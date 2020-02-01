@@ -1,5 +1,5 @@
 import { DetailComponent } from './detail.component';
-import { createHostComponentFactory, SpectatorWithHost } from '@netbasal/spectator';
+import { createHostComponentFactory, SpectatorWithHost } from '@netbasal/spectator/jest';
 
 describe('DetailComponent', () => {
   let host: SpectatorWithHost<DetailComponent>;

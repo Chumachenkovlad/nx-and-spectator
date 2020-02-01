@@ -4,9 +4,10 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DetailComponent } from './detail/detail.component';
+import { ItemComponent } from './item/item.component';
 
 @NgModule({
-  declarations: [AppComponent, DetailComponent],
+  declarations: [AppComponent, DetailComponent, ItemComponent],
   imports: [BrowserModule, BrowserAnimationsModule],
   providers: [],
   bootstrap: [AppComponent]
