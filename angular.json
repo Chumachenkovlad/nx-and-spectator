@@ -10,7 +10,7 @@
       },
       "root": "apps/main",
       "sourceRoot": "apps/main/src",
-      "prefix": "nx-with-spectator",
+      "prefix": "nws",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
